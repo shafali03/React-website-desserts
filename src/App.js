@@ -1,10 +1,14 @@
 import React from 'react'
+import Navbar from './components/Navbar/Navbar'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { GlobalStyle } from './globalStyle'
 
 const App = () => {
   return (
-    <div>
-      <h1>desserts</h1>
-    </div>
+    <Router>
+      <GlobalStyle />
+      <Navbar />
+    </Router>
   )
 }
 
