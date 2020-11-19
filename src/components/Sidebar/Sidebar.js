@@ -19,9 +19,11 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink to='/'>0</SidebarLink>
-        <SidebarLink to='/'>1</SidebarLink>
-        <SidebarLink to='/'>2</SidebarLink>
+        <SidebarLink to='/'>Desserts</SidebarLink>
+        <SidebarLink to='/'>American Pancakes</SidebarLink>
+        <SidebarLink to='/'>Shakes</SidebarLink>
+        <SidebarLink to='/'>Hot Drinks</SidebarLink>
+        <SidebarLink to='/'>Mocktails</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
         <SidebarRoute to="/">Order Now</SidebarRoute>
