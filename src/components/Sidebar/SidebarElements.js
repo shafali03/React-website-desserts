@@ -38,7 +38,7 @@ export const Icon = styled.div`
 export const SidebarMenu = styled.div`
   display: 'grid';
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 80px);
+  grid-template-rows: repeat(3, 1110px);
   text-align: center;
 
   @media screen and (max-width: 400px) {
@@ -51,6 +51,7 @@ export const SidebarLink = styled(Link)`
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
+    padding: 0.8rem;
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
