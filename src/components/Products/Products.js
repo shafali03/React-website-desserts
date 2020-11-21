@@ -25,7 +25,7 @@ const Products = ({ heading, data }) => {
                 alt={product.alt}
               />
               <ProductInfo>
-                <ProductTitle>{product.name}</ProductTitle>
+                <ProductTitle>{product.title}</ProductTitle>
                 <ProductDesc>{product.desc}</ProductDesc>
                 <ProductPrice>{product.price}</ProductPrice>
                 <ProductButton>{product.button}</ProductButton>
