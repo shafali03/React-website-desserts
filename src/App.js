@@ -4,6 +4,7 @@ import { GlobalStyle } from './globalStyle'
 import Hero from './components/Hero/Hero'
 import Products from './components/Products/Products'
 import { productData } from './components/Products/data'
+import Feature from './components/Feature/Feature'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <GlobalStyle />
       <Hero />
       <Products heading='Choose your desserts' data={productData} />
+      <Feature />
     </Router>
   )
 }
